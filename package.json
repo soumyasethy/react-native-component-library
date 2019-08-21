@@ -1,0 +1,24 @@
+{
+  "name": "licious-component-library",
+  "version": "1.0.0",
+  "description": "Quick way to start developing React Native UI component.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "starter",
+    "component",
+    "library",
+    "module starter",
+    "package starter",
+    "library starter"
+  ],
+  "author": "Soumya Sethy",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.60"
+  }
+}
