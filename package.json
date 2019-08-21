@@ -5,8 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watcher-add": "wml add ~/Desktop/Licious/licious-component-library-rn/src ~/Desktop/Licious/licious-component-library-rn/example/node_modules/licious-component-library/src",
-    "watch": "wml start"
+    "watcher-add": "wml add ~/Desktop/Licious/licious-component-library-rn/ ~/Desktop/Licious/licious-storybook-rn/node_modules/licious-component-library/",
+    "watch-start": "wml start",
+    "watch-stop": "wml rm-all",
+    "watch-single": "wml rm 0",
+    "watch-list": "wml list"
   },
   "keywords": [
     "react-native",
@@ -17,10 +20,13 @@
     "package starter",
     "library starter"
   ],
-  "author": "Soumya Sethy",
+  "author": "Soumya Ranjan Sethy",
   "license": "ISC",
   "devDependencies": {
     "react": "16.9.0",
     "react-native": "0.60"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2"
   }
 }
