@@ -22,5 +22,13 @@
   "devDependencies": {
     "react": "16.9.0",
     "react-native": "0.60"
+  },
+  "dependencies": {
+    "styled-components": "^5.0.0-beta.8"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "src"
+    ]
   }
 }
