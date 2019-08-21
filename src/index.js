@@ -1,14 +1,12 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from "react";
+import { View, Text } from "react-native";
 
 export default class ReactNativeLibraryStarter extends React.Component {
-  render () {
+  render() {
     return (
       <View>
-        <Text>
-          This is library starter. Enjoy.
-        </Text>
+        <Text>This is library starter. Enjoy. Some more Text.....</Text>
       </View>
-    )
+    );
   }
 }
