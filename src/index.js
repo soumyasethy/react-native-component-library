@@ -5,13 +5,13 @@ import { mS } from "./widget/ResponsiveScreen";
 // import HeaderWithShareIcon from "./header";
 // export { HeaderWithShareIcon };
 import { MyReactNativeComponent } from "./styledComponent";
-export { MyReactNativeComponent };
 
 export default class ReactNativeLibraryStarter extends React.Component {
   render() {
     return (
-      <View style={{ padding: mS(20) }}>
-        <Text>Hello Soumya from RN-Lib</Text>
+      <View style={{ padding: mS(100) }}>
+        <Text>Hello Soumya from Nice RN-Lib</Text>
+        <MyReactNativeComponent />
       </View>
     );
   }
