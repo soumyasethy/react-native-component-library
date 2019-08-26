@@ -29,7 +29,7 @@ interface configProps {
   header?: string;
 }
 
-const HeaderHOC = component => (props: propsType) => {
+const HeaderHOC = () => (props: propsType) => {
   const [showFilter, toggleFilter] = useState(false);
 
   const _renderHeaderType = (type: typeProps) => {
