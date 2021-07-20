@@ -24,7 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "react": "16.9.0",
-    "react-native": "0.60"
+    "react-native": "0.62"
   },
   "dependencies": {
     "styled-components": "^4.3.2"
